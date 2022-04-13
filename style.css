@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(230,230,230);
+  color: rgb(50,50,50);
+  font-family: cursive;
+  font-size: 20px;
+}
+
+body  {
+  background-image: url("https://p2.piqsels.com/preview/45/424/912/5968988ec0d62-thumbnail.jpg");
+  background-color: #FFCCFF;
+}
+
+h1 {
+  color: rgb(39 11 195);
+  font-family: cursive;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #882fc4;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+  font-size: 18px;
+}
+a:hover {
+  color: red;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto
+}
+
+.card-white {
+  background-color: #FFDCDC ;
+  opacity: 0.95;
+  padding: 20px;
+  margin: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.btn-pink{
+  background-color: #FE7171;
+  color: white;
+  padding: 20px 25 px;
+  border-radius: 3px;
+  }
+.btn-pink:hover{
+  background-color: #FF487E;
+  color: white;
+  padding: 20px 15 px;
+  border-radius: 3px;
+  }
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.image-circle{
+    border-radius: 20%;
+}
+
+.btn-blue {
+  background-color: rgb(79, 70, 223);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(200,200,200);
+}
+.list-inline i:hover{
+  color: blue;
+}
+
+#introduction p {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+    .container {
+      width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+      width: 400px;
+    }
+}
+
